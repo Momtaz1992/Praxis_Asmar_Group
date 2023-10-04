@@ -1,0 +1,127 @@
+*{
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       font-family: 'Poppins', sans-serif;
+}
+nav{
+       display: flex;
+       justify-content: end;
+       align-items: center;
+       gap: 300px;
+}
+.nav-Text{
+       font-size: 50px;
+       width: 900px;
+       color: #2d565b;
+       position: relative;
+       bottom: 170px;
+}
+.home{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 50px;
+}
+.PhotoContainer{
+       display: flex;
+       justify-content: center;
+       position: relative;
+}
+.PhotoContainer img{
+       width: 360px;
+       border-radius: 50%;
+}
+.PhotoContainer i{
+       font-size: 80px;
+       color: #2d565b;
+       position: absolute;
+       right: 20px;
+}
+.containerHome h1{
+       font-size: 70px;
+       color: #2d565b;
+       padding: 20px;
+}
+.containerHome p{
+       font-size: 30px;
+       padding: 20px;
+       width: 1100px;
+}
+.linkContainerHome{
+       display: flex;
+       justify-content: start;
+       padding: 20px;
+       gap: 20px;
+       font-size: 32px;
+}
+.linkContainerHome a{
+       text-decoration: none;
+       color: #2d565b;
+       cursor: pointer;
+}
+.linkContainerHome a:hover{
+       color: #2d565b;
+       text-decoration: underline;
+}
+.linkContainerHome i{
+       font-size: 40px;
+       color: white;
+       background-color:#2d565b;
+       border-radius: 50%;
+       cursor: pointer;
+}
+.firstSection{
+       text-align: center;
+       padding: 80px;
+}
+.appointment{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: center;
+       align-items: center;
+       border-radius: 60px;
+       margin :10px auto ; 
+       padding:10px;
+       width: 70%;
+}
+.containerAppointment{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       justify-content: center;
+       align-items: center;
+       gap: 5px;
+       color: white;
+       padding: 40px;
+       border: 2px solid white;
+       background-color: #2d565b;
+       cursor: pointer;
+       height: 200px;
+}
+.containerAppointment:hover{
+       background-color: #466f75;
+}
+.rightBorderTop{
+       border-top-left-radius: 50px ;
+}
+.rightBorderBottom{
+       border-bottom-left-radius: 50px ;
+}
+.leftBorderTop{
+       border-top-right-radius: 50px ;
+}
+.leftBorderBottom{
+       border-bottom-right-radius: 50px ;
+}
+.containerAppointment p{
+       font-size: 34px;
+}
+.containerAppointment i{
+       font-size: 70px;
+}
+.red{
+       background-color: #b41111;
+}
+.red:hover{
+       background-color: #af3333;
+}
