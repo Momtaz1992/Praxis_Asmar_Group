@@ -386,3 +386,92 @@ footer{
        font-size: 26px;
        padding: 20px 60px;
 }
+@media screen and (max-width: 1200px){
+       .imgLogo img{
+              width: 200px;
+       }
+       .nav-Photo img{
+              width: 700px;
+       }
+       .nav-Text {
+              font-size: 30px;
+              width: 400px;
+              bottom: 100px;
+              left: 50px;
+       }
+       .home{
+              display: inline;
+              position: relative;
+       }
+       .PhotoContainer i{
+              font-size: 50px;
+              right: 0px;
+              left: 700px;
+       }
+       .containerHome{
+              text-align: center;
+       }
+       .linkContainerHome{
+              justify-content: center;
+       }
+       .section4{
+              flex-direction: column;
+       }
+       .containerSection4{
+              order: 1;
+       }
+       .imgContainer{
+              order: 0;
+       }
+       .imgContainer i{
+              left: 300px;
+       }
+       .containerSection6{
+              display: block;
+       }
+       .widthFooter{
+              display: block;
+       }
+}
+@media screen and (max-width: 700px){
+       nav{
+              display: none;
+       }
+       .containerHome p{
+              width: 780px;
+       }
+       header{
+              width: 780px;
+       }
+       .PhotoContainer i{
+              right: 0px;
+              left: 500px;
+       }
+       .appointment{
+              display: block;
+              width: 600px;
+              
+       }
+       .secondSection{
+              width: 780px;
+              margin: 0 auto;
+       }
+       .thirdSection{
+              width: 780px;
+       }
+       .section4{
+              width: 780px;
+       }
+       .section5{
+              width: 780px;
+       }
+       .section6{
+              width: 780px;
+       }
+       .section7{
+              width: 780px;
+       }
+       footer{
+              width: 780px;
+       }
+}
