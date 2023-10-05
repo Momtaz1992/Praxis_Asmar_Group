@@ -143,6 +143,8 @@ nav{
        padding: 15px;
        color: white;
        width: 100%;
+       border-top-left-radius: 50px ;
+       border-bottom-right-radius: 50px ;
 }
 .questions{
        display: flex;
@@ -170,3 +172,115 @@ details ul{
 .lastQuestion{
        padding-bottom: 20px;
 }
+.titleSection3 h2{
+       font-size: 52px;
+       color: #2d565b;
+       padding: 25px;
+       text-align: center;
+}
+.containerSection3{
+       width: 70%;
+       margin: 20px auto;
+}
+.section4{
+       width: 70%;
+       margin: 0 auto;
+       background-color: #fcfaf6;
+       padding: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-top-left-radius: 50px ;
+       border-bottom-right-radius: 50px ;
+}
+.containerSection4 p{
+       font-size: 40px;
+       padding: 65px;
+}
+.linkContainer4{
+       font-size: 40px;
+       padding: 10px 65px;
+       display: flex;
+       gap: 15px;
+}
+.linkContainer4 a{
+       text-decoration: underline;
+       color: #2d565b;
+       cursor: pointer;
+}
+.linkContainer4 i{
+       color: white;
+       background-color:#2d565b;
+       border-radius: 50%;
+       cursor: pointer;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.imgContainer{
+       display: flex;
+       position: relative;
+}
+.imgContainer img{
+       padding: 25px;
+       width: 360px;
+       border-radius: 50%;
+}
+.imgContainer i{
+       font-size: 60px;
+       color: #2d565b;
+       position: absolute;
+       left: 10px;
+}
+.section5{
+       width: 70%;
+       margin: 20px auto;
+       padding: 30px;
+}
+.firstPart{
+       display: flex;
+       justify-content: start;
+       align-items: center;
+       gap: 30px;
+       padding: 40px;
+}
+.containerSection5 h3{
+       font-size: 60px;
+       color: #2d565b;
+       padding: 25px;
+}
+.containerSection5 p{
+       font-size: 30px;
+       padding: 25px;
+       color: #333333;
+}
+.imgSection5 img{
+       width: 360px;
+       border-radius: 50%;
+}
+.secondPart{
+       padding: 25px;
+}
+.secondPart p{
+       font-size: 30px;
+       padding: 25px;
+       color: #333333;
+}
+.linkContainer5{
+       padding: 25px;
+}
+.linkContainer5 details summary{
+       text-decoration: none;
+       color: #2d565b;
+       cursor: pointer;
+       font-size: 40px;
+}
+.container h4{
+       padding: 10px;
+       font-size: 20px;
+}
+.container p{
+       padding: 10px;
+       font-size: 26px;
+}
+
