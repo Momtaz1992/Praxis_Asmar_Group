@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Josefin+Sans:wght@100;400;500;600;700&family=Kablammo&family=Metal+Mania&family=Open+Sans:wght@400;500;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Paytone+One&family=Poppins:wght@300;400;500;600;700;900&family=Roboto+Mono:ital,wght@0,300;0,400;0,600;1,700&family=Roboto:wght@400;700&family=Rubik+Pixels&display=swap');
 *{
        box-sizing: border-box;
        margin: 0;
@@ -6,9 +7,14 @@
 }
 nav{
        display: flex;
-       justify-content: end;
+       justify-content: space-around;
        align-items: center;
-       gap: 300px;
+       width: 70%;
+       margin: 0 auto;
+}
+.imgLogo img{
+       width: 400px;
+       padding-bottom: 130px;
 }
 .nav-Text{
        font-size: 50px;
@@ -283,4 +289,100 @@ details ul{
        padding: 10px;
        font-size: 26px;
 }
-
+.section6{
+       width: 70%;
+       margin: 0 auto;
+       background-color: #fcfaf6;
+       padding: 20px;
+       border-top-left-radius: 50px ;
+       border-bottom-right-radius: 50px ;
+}
+.section6 h3{
+       font-size: 50px;
+       color: #2d565b;
+       padding: 25px;
+       text-align: center;
+}
+.containerSection6{
+       display: flex;
+}
+.imgSection6{
+       display: flex;
+       padding: 20px;
+       justify-content: center;
+       align-items: center;
+       margin: 20px auto;
+}
+.imgSection6 img{
+       width: 280px;
+       border-radius: 50%;
+}
+.containerSection h3{
+       font-size: 30px;
+       padding: 20px;
+       color: #242424;
+}
+.containerSection p{
+       font-size: 22px;
+       padding: 20px;
+       color: #4a4a4a;
+}
+.section7{
+       width: 70%;
+       margin: 20px auto;
+       padding: 20px;
+}
+.section7 h2{
+       font-size: 50px;
+       color: #2d565b;
+       padding: 25px;
+}
+.section7 a{
+       text-decoration: underline;
+       color: #2d565b;
+       cursor: pointer;
+       font-size: 40px;
+       padding: 55px 25px;
+}
+.section7 p{
+       font-size: 30px;
+       padding: 75px 25px 40px;
+       color: #333333;
+}
+.section7 ul{
+       font-size: 22px;
+       padding: 10px 25px;
+       color: #4a4a4a;
+}
+footer{
+       color: black;
+       margin: 0 auto;
+       padding: 20px;
+       background-color: #fcfaf6;
+}
+.widthFooter{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: row;
+       margin: 0 auto;
+       padding: 20px;
+       width: 70%;
+       font-size: 26px;
+}
+.widthFooter img{
+       width: 360px;
+       padding: 20px 60px;
+}
+.containerFooter p,h4{
+       padding: 5px 60px;
+}
+.thirdPartFooter p{
+       padding: 5px 60px;
+}
+.thirdPartFooter a{
+       text-decoration: underline;
+       color: #2d565b;
+       cursor: pointer;
+       font-size: 26px;
+       padding: 20px 60px;
+}
